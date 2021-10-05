@@ -7,7 +7,7 @@
     "vercel-build": "npm run build",
     "build": "webpack",
     "lint": "standard",
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com",
   "devDependencies": {
     "@babel/core": "^7.4.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
@@ -33,7 +34,11 @@
     "webpack-dev-server": "^3.7.1"
   },
   "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "graphql": "^14.7.0",
+    "intersection-observer": "^0.12.0",
     "react": "^16.8.6",
+    "react-apollo": "^3.1.5",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "styled-components": "^4.3.1"
