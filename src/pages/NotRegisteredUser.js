@@ -20,9 +20,9 @@ export const NotRegisteredUser = () => {
             })
           }
 
-          const errorMsg = error && 'El usuario ya existe o hay algún problema.'
+          const errorMsg = error && 'There was a problem'
 
-          return <UserForm disabled={loading} error={errorMsg} title='Registrarse' onSubmit={onSubmit} />
+          return <UserForm disabled={loading} error={errorMsg} title='Register' onSubmit={onSubmit} />
         }
       }
     </RegisterMutation>
@@ -39,9 +39,9 @@ export const NotRegisteredUser = () => {
             })
           }
 
-          const errorMsg = error && 'La contraseña no es correcta o el usuario no existe'
+          const errorMsg = error && 'Incorrect email or password'
 
-          return <UserForm disabled={loading} error={errorMsg} title='Iniciar sesión' onSubmit={onSubmit} />
+          return <UserForm disabled={loading} error={errorMsg} title='Login' onSubmit={onSubmit} />
         }
       }
     </LoginMutation>
