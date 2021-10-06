@@ -8,7 +8,7 @@
     "build": "webpack",
     "lint": "standard",
     "dev": "webpack-dev-server --open --history-api-fallback",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "no hice la tarea jeje(later i can use cypress idk)"
   },
   "repository": {
     "type": "git",

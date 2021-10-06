@@ -1,6 +1,6 @@
 
 
-//const DEFAULT_IMAGE = 'https://i.pinimg.com/originals/9e/97/73/9e9773a2c06836d0a087483811a2de6f.jpg';
+
 
 import React, { Fragment } from 'react'
 import { Article, ImgWrapper, Img } from './styles'
