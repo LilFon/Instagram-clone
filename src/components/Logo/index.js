@@ -1,7 +1,8 @@
-import React from 'react'
-import { Svg } from './styles'
-
+import React from 'react';
+import { Svg } from './styles';
+import { Link } from '@reach/router'
 export const Logo = props => (
+  <Link to='/'>
   <Svg
   width={474.261}
   height={120.81}
@@ -33,4 +34,5 @@ export const Logo = props => (
   />
   <style />
 </Svg>
+</Link>
 )

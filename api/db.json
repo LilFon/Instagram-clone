@@ -27,42 +27,42 @@
     {
       "id": 1,
       "name": "nintendo",
-      "emoji": "",
+      "emoji": "👑",
       "cover": "https://i.pinimg.com/originals/d9/f0/ad/d9f0ad94a6b16e52861ba30705ad05c3.png",
       "path": "/photos/nintendo"
     },
     {
       "id": 2,
       "name": "sega",
-      "emoji": "",
+      "emoji": "😎",
       "cover": "https://i.ytimg.com/vi/8qO7kUFpwLM/hqdefault.jpg",
       "path": "/photos/sega"
     },
     {
       "id": 3,
       "name": "playstation",
-      "emoji": "",
+      "emoji": "💰",
       "cover": "https://w7.pngwing.com/pngs/24/817/png-transparent-playstation-4-raiders-of-the-broken-planet-playstation-network-playstation-plus-playstation-electronics-text-trademark.png",
       "path": "/photos/playstation"
     },
     {
       "id": 4,
       "name": "pcEngine",
-      "emoji": "",
+      "emoji": "🤓",
       "cover": "https://res.cloudinary.com/teepublic/image/private/s--Y5m9bsJf--/c_crop,x_10,y_10/c_fit,h_830/c_crop,g_north_west,h_1038,w_1038,x_-227,y_-104/l_upload:v1565806151:production:blanks:vdbwo35fw6qtflw9kezw/fl_layer_apply,g_north_west,x_-338,y_-215/b_rgb:000000/c_limit,f_jpg,h_630,q_90,w_630/v1602526613/production/designs/14960443_0.jpg",
       "path": "/photos/pcEngine"
     },
     {
       "id": 5,
       "name": "snk",
-      "emoji": "",
+      "emoji": "🔥",
       "cover": "https://i1.wp.com/codigoespagueti.com/wp-content/uploads/2018/09/snk.png?fit=1080%2C608&quality=80&ssl=1",
       "path": "/photos/snk"
     },
     {
       "id": 6,
       "name": "atari",
-      "emoji": "",
+      "emoji": "💩",
       "cover": "https://i0.wp.com/elpoderdelasideas.com/wp-content/uploads/atari_logo_origen.png?fit=550%2C268",
       "path": "/photos/atari"
     }
