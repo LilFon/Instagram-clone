@@ -58,17 +58,21 @@ ul::-webkit-scrollbar {
   width: 0.1em;
   height: 0.5em;
   border-radius: 30px;
+  opacity: .2;
   
 }
+
 
 ul::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   border-radius: 30px;
+  width: 20px;
+  opacity: .2;
 }
 
 ul::-webkit-scrollbar-thumb {
 background-color: darkgrey;
-opacity: .5;
+opacity: .3;
 
 border-radius: 30px;
 }

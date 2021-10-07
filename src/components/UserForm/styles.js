@@ -39,14 +39,19 @@ padding: 50px 50px;
 align-items: center;
 border-radius: 10px;
 box-shadow: 0px 10px 14px rgba(0, 0, 0, .2);
+ 
+  text-align: center;
+  
 
 
 `
 
 export const Img = styled.img`
  
-  height: 100px;
-  width: 100px;
+  max-height: 60px;
+  max-width: 60px;
+  min-height: 20px;
+  min-width: 20px;
   
   opacity: .6;
   object-fit: cover;

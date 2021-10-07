@@ -32,7 +32,7 @@ export const UserForm = ({ error, disabled, onSubmit, title, login }) => {
       
       <Title>{title}</Title>
         
-        <Input disabled={disabled} placeholder='Email' {...email} />
+        <Input disabled={disabled} placeholder='Email' type='email' {...email} />
         <Input disabled={disabled} placeholder='Password' type='password' {...password} />
         <SubmitButton disabled={disabled}>{title}</SubmitButton>
       </Form>
@@ -41,7 +41,7 @@ export const UserForm = ({ error, disabled, onSubmit, title, login }) => {
       
        
       {error && <Error>{error}</Error> }
-      {login && <div>you dont have an account?  <Link to='/register'>register</Link></div>   }
+      {login && <div>You dont have an account?  <Link to='/register'>register</Link></div>   }
       
       </DIV>
   )

@@ -23,7 +23,7 @@ export const List = styled.ul`
     top: -10px;
     transform: scale(.6);
     z-index: 1;
-    overflow-x: hidden; 
+    
   }
   `}
 `
