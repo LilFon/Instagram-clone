@@ -10,17 +10,23 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
   }
 
-  ul, li, h1, h2, h3, p, button { margin: 0; padding: 0; }
-  ul { list-style: none; }
+  ul, li, h1, h2, h3, p, button { margin: 0; padding: 0; background: #fefefe; }
+  ul { list-style: none;  }
   button { background: transparent; border: 0; outline: 0 }
 
   body {
-    background: #fefefe;
+    background-image: url("https://s3.amazonaws.com/odeassa1014/images/90s-pattern-retro-wallpaper-pattern-wallpaper_lcc6_gz.jpg");
+    background-attachment: fixed;
     height: 100vh;
     margin: 0 auto;
     max-width: 500px;
     overscroll-behavior: none;
     width: 100%; 
+    box-shadow: 0 0 50px #ccc;
+    
+      
+      
+     
   }
 
   #app {
@@ -28,6 +34,7 @@ export const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     min-height: 100vh;
     padding-bottom: 10px;
+    background: #fefefe;
   }
 
  

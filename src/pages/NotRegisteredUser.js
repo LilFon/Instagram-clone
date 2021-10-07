@@ -27,23 +27,6 @@ export const NotRegisteredUser = () => {
       }
     </RegisterMutation>
 
-    <LoginMutation>
-      {
-        (login, { data, loading, error }) => {
-          const onSubmit = ({ email, password }) => {
-            const input = { email, password }
-            const variables = { input }
-            login({ variables }).then(({ data }) => {
-              const { login } = data
-              activateAuth(login)
-            })
-          }
-
-          const errorMsg = error && 'Incorrect email or password'
-
-          return <UserForm disabled={loading} error={errorMsg} title='Login' onSubmit={onSubmit} />
-        }
-      }
-    </LoginMutation>
+    
   </Fragment>
 }

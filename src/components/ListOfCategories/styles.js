@@ -7,6 +7,7 @@ export const List = styled.ul`
   padding-bottom: 20px;
   margin-bottom: 15px;
   overflow-y: hidden; 
+  background: #fefefe;
   
   ${props => props.fixed && css`
   {
@@ -29,4 +30,5 @@ export const List = styled.ul`
 
 export const Item = styled.li`
   padding: 0 8px;
+  
 `
